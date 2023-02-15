@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    color:#333;
+    font-size: 12px;
+}
+.main{
+    background: #000;
+    height: 101%;
+    padding-top: 60px;
+}a:link{
+    color: #333;
+}a:visited {
+	color: #333;
+}
+a:hover {
+	color: #4A8109;
+}
+a:active {
+	color: #333;
+}
+.billboard {
+	width: 978px;
+	border: 1px solid #dedede;
+	margin:0 auto;
+}
+img {
+	border:0px;
+}
+.billboard .black {
+	background: #000;
+	text-align: center;
+	zoom: 1;
+}
+.billboard .black:after {
+	content:'.';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.billboard .black a.block {
+	display: block;
+	padding-bottom: 136px
+}
+.billboard, .billboard .black {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.billboard h1 {
+	padding-top: 53px;
+}
+.billboard h1, .billboard p {
+	margin: 0;
+}
+.billboard p {
+	margin-bottom: 50px;
+}
+.billboard img {
+	display: block;
+	margin: 0 auto;
+}
+.billboard img.hero {
+	float: right;
+	margin-bottom: 27px;
+}
+.ACBlackoutBody {
+	BACKGROUND: #000;
+	margin:0 auto;
+}
+.ACBlackoutBody * {
+	VISIBILITY: hidden
+}
+.ACBlackoutBody .ACBlackout {
+	VISIBILITY: visible
+}
+.ACBlackout {
+	Z-INDEX: 10000;
+	POSITION: absolute;
+	WIDTH: 100%;
+	DISPLAY: block;
+	BACKGROUND: #000;
+	HEIGHT: 100%;
+	OVERFLOW: hidden;
+	TOP: 0px;
+	LEFT: 0px
+}
+.ACBlackout .ACBlackoutMain {
+	POSITION: relative;
+	MARGIN: 0px auto;
+	WIDTH: 980px;
+	DISPLAY: block
+}
+.ACBlackout .ACBlackoutMain .ACBlackoutImg {
+	POSITION: absolute;
+	TOP: 0px;
+	LEFT: 0px;
+	-webkit-transform: translateZ(0)
+}
+.ACBlackout .linked.ACBlackoutMain .ACBlackoutImg {
+	CURSOR: pointer
+}
+.ACBlackout .ACBlackoutiOSBG {
+	POSITION: absolute;
+	OUTLINE-STYLE: solid;
+	OUTLINE-COLOR: #000;
+	OUTLINE-WIDTH: 1px;
+	WIDTH: 0px;
+	DISPLAY: block;
+	HEIGHT: 0px;
+	TOP: 0px;
+	LEFT: 0px
+}
